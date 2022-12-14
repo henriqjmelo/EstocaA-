@@ -1,0 +1,84 @@
+body{
+    margin: none;
+    background-color: #ffffff
+    ;
+    color: white;
+}
+
+
+h1{
+    background-color: #7ad4f1;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+}
+h3{
+
+padding-left: 25px;
+
+}
+
+
+#caixa-produto{
+
+    padding: 30px;
+    display: inline;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    border:1px solid black;
+    margin: 15px;
+    color: #110a57;
+    background-color: #f4f5fb;
+}
+
+#caixa-dados{
+
+    color: #110a57;
+    border:1px solid black;
+    background-color: #f4f5fb;
+    padding: 60px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 30px;
+
+
+}
+label{
+font-weight: bold;
+font-size: 1.2rem;
+}
+label, input{
+    margin-bottom: 20px;
+
+
+}
+
+#observacao{
+    margin: none;
+    padding: 40px;
+}
+
+input[type="submit"]{
+
+width: 100px;
+padding: 8px;
+font-weight: bold;
+font-size: 1.2rem;
+align-items: right;
+
+}
+input[type="submit"]:hover{
+
+    width: 100px;
+    padding: 8px;
+    background-color: darkgrey;
+    
+    
+    }
+
+    #voltar{
+        
+        margin-left: 15px; 
+       
+    }

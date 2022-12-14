@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" type="module" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main-cadastro">
+        <div class="left-login">
+              <img src="img/pessoa-estoque.svg" class="left-login-image" alt="estoque-animação">
+        </div>
+        <div id="Cadastro-container">
+             <img src="img/Estoca_Logo.png" class="Cadastro-container-image">
+        <h1>Cadastro</h1>
+        <form action="" id="register-form" autocomplete="off">
+           <div class="full-box">
+            <label for="nome">Nome</label>
+            <input type="nome" name="nome" id="nome" placeholder="Digite o seu nome completo" data-only-letters='^[A-Za-z\s]+$' data-required>
+           </div> 
+           <div class="full-box">
+            <label for="CPF">CPF</label>
+            <input type="CPF" name="CPF" id="CPF" placeholder="Digite o seu CPF" data-only-length="11" data-required>
+           </div>
+           <div class="full-box">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite o seu email" data-required data-email-validate>
+           </div>
+           <div class="full-box">
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Insira a sua senha" data-required data-password-validate data-min-length="8">
+           </div>
+           <div class="full-box "> 
+            <label for="confsenha">Confirmar senha</label>
+            <input type="password" name="confpassword" id="confpassword" placeholder="Insira a sua senha novamente" data-required data-equal="password">
+           </div> 
+            <input type="checkbox" name="agreement" id="agreement">
+            <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</label>
+            <input type="submit" id="btn-submit" value="Registrar">
+  
+        </form>
+        <a href="login.html" id="login-account">LOGIN</a>
+
+        </div>
+    </div>
+    <p class="error-validation template"></p>
+</body>
+</html>

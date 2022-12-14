@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main-login">
+      <div class="left-login">
+            <img src="img/pessoa-estoque.svg" class="left-login-image" alt="estoque-animação">
+      </div>
+      <div id="login-container">
+      <a href="principal.html">  
+        <img src="img/Estoca_Logo.png" class="login-container-image" alt="estoque-logo">
+      </a>
+          <h1>Login</h1>
+          <form action="">
+            <div class="textfield">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Digite o seu email"> <!--placeholder= dica dizendo o que o usuario deve preencher no campo--> 
+            </div>
+            <div class="textfield">
+              <label for="password">Senha</label>
+              <input type="password" name="password" id="password" placeholder="Digite a sua senha"> <!--id=validação (ex-min caracteres)-->
+            </div>
+              <a href="#" id="forgot-pass">Esqueceu a senha?</a> <!--# vai ser substituida pelo link da pagina de recuperar senha-->
+              <a href="../../../Tela_de_lista_e_cadastro_produtos/HTML/backend/page-list-product.html" type="submit" id="entrar">
+                <input type="button" id="entrar" value="Login">
+              </a>
+          </form>
+          <div id="register-container">
+              <p>Ainda não tem uma conta?</p>
+              <a href="cadastro.html" id="create-account">CADASTRAR</a>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
